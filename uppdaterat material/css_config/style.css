@@ -1,0 +1,46 @@
+#top_div{
+height:190px;
+position:absolute;
+top:10px;
+width:1162px;
+border:1px solid #333333;
+padding:10px;
+}
+#left_div{
+width:300px;
+position:absolute;
+height:600px;
+left:10px;
+border:1px solid #333333;
+top:230px;
+padding:10px;
+}
+#middle_div{
+width:500px;
+position:absolute;
+left:340px;
+height:600px;
+border:1px solid #333333;
+top:230px;
+padding:10px;
+}
+
+#right_div{
+width:300px;
+position:absolute;
+height:600px;
+left:870px;
+border:1px solid #333333;
+top:230px;
+padding:10px;
+}
+#top_div_radio{
+height:190px;
+position:absolute;
+top:10px;
+width:400px;
+right:5px;
+height:150px;
+border:1px solid #333333;
+padding:10px;
+}

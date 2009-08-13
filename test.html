@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Untitled Document</title>
+<script language="javascript">
+var effect = {
+
+hoverBorder:function(obj,color){
+	obj.style.borderColor=color;
+	obj.style.borderStyle="solid";
+	obj.style.borderWidth="3px";
+},
+
+hoverBackground:function(obj,color){
+	obj.style.backgroundColor=color;
+}
+
+}
+</script>
+</head>
+<body>
+<div id="div" onmouseover="effect.hoverBackground(this,'#FF0000')" onmouseout="effect.hoverBackground(this,'#999999')"> 
+<img src="felix_socialist.gif"  onmouseover="effect.hoverBorder(this,'#FF0000')" onmouseout="effect.hoverBorder(this,'#333333')"/> 
+</div>
+</body>
+</html>
