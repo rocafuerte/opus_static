@@ -159,6 +159,10 @@ hr {
 	line-height:0px;
 }
 
+.topBanner{
+	float:left;
+	margin-bottom:15px;
+}
 
 #pageCell {
 	padding-left:30px;
@@ -218,7 +222,11 @@ hr {
 	margin-left: 6px;
 	padding: 0px;
 }
-#menuBar img {
+
+.menuItem {
+	float:left;
+}
+#radio {
 	padding:0px;
 	margin:0px;
 	float: left;
@@ -266,12 +274,11 @@ hr {
 
 
 #showDate {
-	right:201px;
 	height:auto;
 	width: auto;
 	float: right;
 	margin-top: 8px;
-	margin-right: 25px;
+	margin-right: 15px;
 }
 #leftDiv {
 	float:left;
@@ -399,17 +406,20 @@ hr {
 #centerDiv a:link, #centerDiv a:visited {
 	font-family:Verdana, Arial, Helvetica, sans-serif;
 	font-size:10px;
-	color:#FF35BD;
+	color:#000;
 	font-weight:normal;
-	text-decoration:none;
+	text-decoration:underline;
 }
+
 #centerDiv a:hover {
 	font-family:Verdana, Arial, Helvetica, sans-serif;
 	font-size:10px;
-	color:#FF66CC;
+	color:#000;
 	font-weight:normal;
 	text-decoration:none;
 }
+
+
 #centerDivBig {
 	float:left;
 	padding-top:20px;
@@ -602,6 +612,7 @@ hr {
 	background-color: #efefef;
 	padding-right: 12px;
 	margin-top: 0px;
+	padding-top: 15px;
 }
 	
 .rightCenterDivFooter{
@@ -617,9 +628,17 @@ hr {
 
 .rightCenterDivFlow {
 	margin-bottom:15px;
-	width: 159px;
+	width: 162px;
+	float: left;
+	height: auto;
+}
+
+.rightCenterDivFlow img{
+	margin-bottom:5px;
 	float: left;
 }
+
+
 .leftCenterDivFlow {
 	margin-bottom:15px;
 	width: 158px;
@@ -1035,7 +1054,8 @@ hr {
 	margin-top:0px;
 	padding-left: 15px;
 	padding-right: 15px;
-	padding-top: 35px;
+	padding-top: 40px;
+	padding-bottom: 20px;
 }
 #descent ul {
 	margin:0px;
@@ -1154,6 +1174,31 @@ hr {
 	font-weight:normal;
 	text-decoration:none;
 }
+
+.smallGreyDarker{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#0f0f0f;
+	font-weight:normal;
+	text-align:left;
+}
+
+.smallGreyDarker a:link, .smallGreyDarker a:visited {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000;
+	font-weight:normal;
+	text-decoration:underline;
+}
+
+.smallGreyDarker a:hover {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
 .smallWhite {
 	font-family:Verdana, Arial, Helvetica, sans-serif;
 	font-size:10px;
@@ -1394,6 +1439,15 @@ hr {
 	font-weight:bold;
 	text-decoration:none;
 }
+
+.boldBlack{
+	font-family:verdana;
+	font-size:11px;
+	color:#000;
+	font-weight:bold;
+	text-decoration:none;
+}
+
 .boldGreyLighter {
 	font-family:Verdana, Arial, Helvetica, sans-serif;
 	font-size:12px;

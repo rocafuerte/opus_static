@@ -34,7 +34,8 @@
 <div class="bg"><img src="graphics/exempel/flute.png" width="168" height="222" />
 <div class="head"><span class="dateAuthor">03-16-2008 / </span><span class="dateAuthorPink">Fabian Rios</span></div>
 <div class="title"><span class="newsHeaderSmaller">Salo och Tingstrand g&aring;r skilda v&auml;gar</span></div>
-<div class="desc">Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. </div>
+<div class="desc">Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. 
+</div>
 </div>
 </div>
 <div class="newsFlowBottom"></div>	
@@ -67,12 +68,31 @@
 <div class="bg">
 <div id="descent">
   <ul>
-        <li> <span class="dateAuthor">2008-02-30</span><br />
-          <span class="boldPink"><a href="#">Antalet h&aring;rdrockare i forshaga &ouml;kar drastiskt</a></span> </li>
-        <li> <span class="dateAuthor">2008-02-24</span><br />
-          <span class="boldPink"><a href="#">Nya chefen f&ouml;r ica heter per</a></span> </li>
-        <li> <span class="dateAuthor">2008-02-13</span><br />
-          <span class="boldPink"><a href="#">Closeup &auml;r sveriges st&ouml;rsta h&aring;rdrockstidning!</a></span> </li>
+        <li> 
+        <span class="dateAuthor">
+        2008-02-30
+        </span>
+        <br />
+          <a href="#">
+          Antalet h&aring;rdrockare i forshaga &ouml;kar drastiskt
+          </a>
+          </li>
+        <li> 
+        <span class="dateAuthor">
+        2008-02-24</span>
+        <br />
+          <a href="#">
+          Nya chefen f&ouml;r ica heter per
+          </a> 
+          </li>
+        <li> 
+        <span class="dateAuthor"> 
+        2008-02-13
+        <br />
+          <a href="#">
+          Closeup &auml;r sveriges st&ouml;rsta h&aring;rdrockstidning!
+          </a> 
+          </li>
       </ul>
     </div>
 
@@ -80,7 +100,8 @@
 </div>
 <div class="newsFlowBottom"></div>	
 
-    </div></div>
+    </div>
+    </div>
  
 	
 
@@ -93,11 +114,21 @@
 <div class="rightCenterDiv">
 <div class="rightCenterDivBg">
   <!-- searchDiv -->
-  
+  <div class="rightCenterDivFlow">
+  <a href="tv.php">
+  <span class="righCenterDivTitle">
+  OPUS TV 
+  </span>
+  </a>
   <br />
-
-  <div class="rightCenterDivFlow"><a href="tv.php"> <span class="righCenterDivTitle">OPUS TV </span></a><br />
- <object width="159" height="126"><param name="movie" value="http://www.youtube.com/v/YjO_VXHxsRw&hl=sv&fs=1&"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/YjO_VXHxsRw&hl=sv&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="159" height="126"></embed></object><br />
+ <object width="162" height="126">
+ <param name="movie" value="http://www.youtube.com/v/YjO_VXHxsRw&hl=sv&fs=1&"></param>
+ <param name="allowFullScreen" value="true"></param>
+ <param name="allowscriptaccess" value="always"></param>
+ <embed src="http://www.youtube.com/v/YjO_VXHxsRw&hl=sv&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="162" height="126">
+ </embed>
+ </object>
+ <br />
     <span class="smallGrey">På Opus TV kan du kolla på spelningar och andra videoklipp<br />
    <a href="tv.php">OPUS TV</a></span> <br />
     <br />
@@ -105,10 +136,23 @@
   </div>
   <!-- rightCenterDivFlow -->
  
-   <div class="rightCenterDivFlow"><a href="tv.php"> <span class="righCenterDivTitle">Tävla och vinn</span></a><br />
-   <img src="graphics/exempel/compete.png" width="159" height="113" />
-    <span class="smallGrey">Kan du svaret? skicka in det och få chansen att vinna!<br />
-   <a href="tv.php">Tävla!</a></span> <br />
+   <div class="rightCenterDivFlow">
+   <a href="tv.php"> 
+   <span class="righCenterDivTitle">
+   Tävla och vinn
+   </span>
+   </a>
+   <br />
+   
+   <img src="graphics/exempel/compete.png" width="162" height="115" />
+    <span class="smallGrey">
+    Kan du svaret? skicka in det och få chansen att vinna!
+    <br />
+   <a href="tv.php">
+   Tävla!
+   </a>
+   </span> 
+   <br />
     <br />
   </div>
   <!-- rightCenterDivFlow -->
@@ -123,21 +167,17 @@
 <div class="rightCenterDiv">
 <div class="rightCenterDivBg">
   <!-- searchDiv -->
-  
-  <br />
-
-  <div class="rightCenterDivFlow"><a href="tv.php"> <span class="righCenterDivTitle">OPUS TV </span></a><br />
- <object width="159" height="126"><param name="movie" value="http://www.youtube.com/v/YjO_VXHxsRw&hl=sv&fs=1&"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/YjO_VXHxsRw&hl=sv&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="159" height="126"></embed></object>
-    <span class="smallGrey">På Opus TV kan du kolla på spelningar och andra videoklipp<br />
+  <div class="rightCenterDivFlow"><a href="tv.php"> <span class="boldBlack">Lite andra nyheter p&aring; denh&auml;r sidan</span></a><br />
+    <img src="graphics/exempel/Untitled-1.jpg" width="162" height="124" /><span class="smallGreyDarker">På Opus TV kan du kolla på spelningar och andra videoklipp<br />
    <a href="tv.php">OPUS TV</a></span> <br />
     <br />
     <hr class="hr2" noshade="noshade" />
   </div>
   <!-- rightCenterDivFlow -->
  
-   <div class="rightCenterDivFlow"><a href="tv.php"> <span class="righCenterDivTitle">Tävla och vinn</span></a><br />
-   <img src="graphics/exempel/compete.png" width="164" height="117" />
-    <span class="smallGrey">Kan du svaret? skicka in det och få chansen att vinna!<br />
+   <div class="rightCenterDivFlow"><a href="tv.php"> <span class="boldBlack">Mer nyheter..</span></a><br />
+   <img src="graphics/exempel/Untitled-2.jpg" width="162" height="108" />
+    <span class="smallGreyDarker">Kan du svaret? skicka in det och få chansen att vinna!<br />
    <a href="tv.php">Tävla!</a></span> <br />
     <br />
   </div>

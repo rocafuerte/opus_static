@@ -43,7 +43,7 @@ object {
 }
 </style>
 </head>
-<body onload="div.init()">
+<body>
 <div id="pageCell"> 
 
 <?php
@@ -63,23 +63,23 @@ while($row = mysql_fetch_assoc($topBannerQ->getResult())){
 ?>
 <div id="topDiv">
 <div id="slogan"><img src="graphics/slogan.png" width="506" height="10" /></div>
- <img src="graphics/exempel/topbanner.png" width="980" height="120" />
+ <img src="graphics/exempel/topbanner.png" width="980" height="120" class="topBanner"/>
 <img src="graphics/logo.png" class="logo"/>
   
 </div>
 
 <div id="menuBar">
- <a href="#"> <img src="graphics/menuItems/senaste.png" border="0" /></a>
- <a href="events.php"><img src="graphics/menuItems/musik.png" border="0" /></a>
- <a href="/blog"><img src="graphics/menuItems/om.png" border="0" /></a>
- <a href="/forum"><img src="graphics/menuItems/shop.png" border="0" /></a>
- <a href="/forum/viewforum.php?f=3"><img src="graphics/menuItems/tavlingar.png" border="0" /></a>
- <a href="vimmel.php"><img src="graphics/menuItems/prenumeration.png" border="0" /></a>
- <a href="prenumeration.php"><img src="graphics/menuItems/koncertkalendern.png" border="0" /></a>
- <a href="number.php"><img src="graphics/menuItems/annonsera.png" border="0" /></a>
- 
+ <a href="#"> <img src="graphics/menuItems/senaste.png" border="0" class="menuItem" /></a>
+ <a href="events.php"><img src="graphics/menuItems/musik.png" border="0"class="menuItem" /></a>
+ <a href="/blog"><img src="graphics/menuItems/om.png" border="0" class="menuItem" /></a>
+ <a href="/forum"><img src="graphics/menuItems/shop.png" border="0" class="menuItem" /></a>
+ <a href="/forum/viewforum.php?f=3"><img src="graphics/menuItems/tavlingar.png" border="0" class="menuItem"/></a>
+ <a href="vimmel.php"><img src="graphics/menuItems/prenumeration.png" border="0" class="menuItem"/></a>
+ <a href="prenumeration.php"><img src="graphics/menuItems/koncertkalendern.png" border="0" class="menuItem" /></a>
+ <a href="number.php"><img src="graphics/menuItems/annonsera.png" border="0" class="menuItem" /></a>
+
   <div id="showDate"><span class="smallWhite">Lördag 22 Augusti 2009</span></div>
-  <div id="radio"><img src="graphics/menuItems/radio.png" /></div>
+ <div id="radio"><img src="graphics/menuItems/radio.png" width="80" height="30" /></div>
   </div>
 <div id="leftDiv">
  <div id="monthlyMag">
