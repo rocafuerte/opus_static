@@ -113,6 +113,11 @@
 <div class="rightCenterDivTop"></div>
 <div class="rightCenterDiv">
 <div class="rightCenterDivBg">
+  <div id="searchDiv">
+    <form action="index.php" method="post">
+      <input name="search" type="text" class="searchField" height="15" size="20">
+    </form>
+  </div>
   <!-- searchDiv -->
   <div class="rightCenterDivFlow">
   <a href="tv.php">
