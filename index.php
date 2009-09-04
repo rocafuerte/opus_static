@@ -1,9 +1,7 @@
 <?php include "header_inc.php" ?>	
  
   <div id="centerDiv">
-  <div id="newsContent">
-  <div class="newsTop"></div>
-<div class="newsActual">
+
 <div class="newsBg">
       <div class="newsHeader">
 		<span class="newsHeaderFont">Salo och Tingstrand g&aring;r skilda v&auml;gar</span>
@@ -25,11 +23,10 @@
  
 </div>
  </div>
-</div>
-<div class="newsActualBottom"></div>
 
 
-<div class="newsFlowTop"></div>
+
+
 <div class="newsFlow">
 <div class="bg"><img src="graphics/exempel/flute.png" width="168" height="222" />
 <div class="head"><span class="dateAuthor">03-16-2008 / </span><span class="dateAuthorPink">Fabian Rios</span></div>
@@ -38,19 +35,15 @@
 </div>
 </div>
 </div>
-<div class="newsFlowBottom"></div>	
-
-<div class="newsFlowTop"></div>
 <div class="newsFlow2">
-<div class="bg">
+  <div class="bg">
   <div class="head"><span class="dateAuthor">03-16-2008 / </span><span class="dateAuthorPink">FABIAN RIOS</span></div>
 <div class="title"><span class="newsHeaderSmaller">Salo och Tingstrand g&aring;r skilda v&auml;gar</span></div>
 <div class="desc">Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. </div>
 </div>
 </div>
-<div class="newsFlowBottom"></div>	
 
-<div class="newsFlowTop"></div>
+
 <div class="newsFlow3">
 <img src="../opus_design/template/8625_getty_20080128162451.jpg" width="343" height="226"/><br />
 <div class="bg">
@@ -59,11 +52,10 @@
 <div class="desc">Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. </div>
 </div>
 </div>
-<div class="newsFlowBottom"></div>	
 
 
 
-<div class="newsFlowTop"></div>
+
 <div class="newsFlow2">
 <div class="bg">
 <div id="descent">
@@ -100,17 +92,14 @@
 </div>
 <div class="newsFlowBottom"></div>	
 
-    </div>
+
     </div>
  
 	
 
 <!-- </div>centerDiv-->
-
-<div class="centerDivFooterSmall"></div>
 </div>
 <div class="rightCenterContent">
-<div class="rightCenterDivTop"></div>
 <div class="rightCenterDiv">
 <div class="rightCenterDivBg">
   <div id="searchDiv">
@@ -166,7 +155,6 @@
   
 </div>
 <!-- righCenterDiv -->
-<div class="rightCenterDivFooter"></div>
 
 <div class="rightCenterDivTop"></div>
 <div class="rightCenterDiv">
