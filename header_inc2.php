@@ -10,7 +10,7 @@ $DB = new DB();
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>Close-Up Magazine</title>
+<title>UPUS Press</title>
 <link href="css_config/styles2.css" rel="stylesheet" type="text/css" />
 <script  language="javascript" src="javascript/fixHeight.js"></script>
 <script  language="javascript" src="javascript/effect.js"></script>
@@ -27,191 +27,88 @@ function setLeftDivHeight(){
 
 //-->
 </script>
-<style>
-object {
-}
-#centerDivTrans embed {
-	width:360px;
-	height:300px;
-	margin:0px;
-	padding:0px;
-}
-.rightCenterDivFlow embed {
-	width:200px;
-	height:200px;
-}
-</style>
+
+
 </head>
-<body onload="div.init()">
-<div id="pageCell">
-<div id="topDiv">
-  <a href="/" target="_self"><img src="graphics/CU-logo-black-background.gif" border="0"  align="left" /></a>
-  <?php
+<body>
+<div id="pageCell"> 
+
+<?php
 $topBannerQ = new Query("banners");
 $topBannerQ->whereLeftJoinImageQuery("*","category","top","date","ASC",1);
 while($row = mysql_fetch_assoc($topBannerQ->getResult())){
 	?>
-    <table border="0" cellpadding="0" cellspacing="0" align="right" width="100">
+<table border="0" cellpadding="0" cellspacing="0" align="right" width="100">
 <tr>
 <td class="tdVertTop"><!--<img src="graphics/annonspilVertical.gif" />-->&nbsp;</td>
-<td class="tdVertTop"><a href="<?php echo $row['link'];?>" target="<?php echo $row['target'];?>"> <img src="<?php echo Settings::getUploadedImages().'/'.$row['file']; ?>" width="760" class="topBanners"/> </a></td>
+<td class="tdVertTop"><a href="<?php echo $row['link'];?>" target="<?php echo $row['target'];?>"><a href="<?php echo $row['link'];?>" target="<?php echo $row['target'];?>"><img src="<?php echo Settings::getUploadedImages().'/'.$row['file']; ?>" width="32" height="32" class="topBanners"/>top ban</a></td>
 </tr>
 </table>
+  
   <?php
 }
 ?>
-  <div id="menuBar">
-    <ul>
-      <li><a href="index.php">Nyheter</a></li>
-      <li><a href="events.php" target="_blank">Konsertkalender</a></li>
-      <li><a href="/blog" target="_blank">Blogg</a></li>
-      <li><a href="/forum" target="_blank">Forum</a></li>
-      <li><a href="/forum/viewforum.php?f=3">K&ouml;p &amp; s&auml;lj</a></li>
-      <li><a href="vimmel.php">Vimmelbilder</a></li>
-      <li><a href="http://www.myspace.com/closeupmyspace" target="_blank">Close-Up MySpace</a></li>
-      <li><a href="prenumeration.php">Prenumerera</a></li>
-      <li><a href="number.php">Gamla nummer</a></li>
-    </ul>
-    <div id="showDate"><span class="smallWhite"><?php echo Helper::sweDay(date("w")).' '.date("j").' '.Helper::sweMonth(date("n")).' '.date("Y") ?></span></div>
-  </div>
+<div id="topDiv">
+<div id="slogan"><img src="graphics/slogan.png" width="506" height="10" /></div>
+ <img src="graphics/exempel/topbanner.png" width="980" height="120" class="topBanner"/>
+<img src="graphics/logo.png" class="logo"/>
+  
 </div>
+
+<div id="menuBar">
+ <a href="#"> <img src="graphics/menuItems/senaste.png" border="0" class="menuItem" /></a>
+ <a href="events.php"><img src="graphics/menuItems/musik.png" border="0"class="menuItem" /></a>
+ <a href="/blog"><img src="graphics/menuItems/om.png" border="0" class="menuItem" /></a>
+ <a href="/forum"><img src="graphics/menuItems/shop.png" border="0" class="menuItem" /></a>
+ <a href="/forum/viewforum.php?f=3"><img src="graphics/menuItems/tavlingar.png" border="0" class="menuItem"/></a>
+ <a href="vimmel.php"><img src="graphics/menuItems/prenumeration.png" border="0" class="menuItem"/></a>
+ <a href="prenumeration.php"><img src="graphics/menuItems/koncertkalendern.png" border="0" class="menuItem" /></a>
+ <a href="number.php"><img src="graphics/menuItems/annonsera.png" border="0" class="menuItem" /></a>
+
+  <div id="showDate"><span class="smallWhite">Lördag 22 Augusti 2009</span></div>
+ <div id="radio"><a href="#" onclick="MM_openBrWindow('radio.php','Radio','width=300,height=400,resizable=no')"><img src="graphics/menuItems/radio.png" width="80" height="30" border="0" /></a></div>
+  </div>
 <div id="leftDiv">
-  <?php 
-$magQ = new Query("monthly_magazine");
-$magQ->whereLeftJoinImageQuery("*","active",1,"rowid","DESC",1);
-if($magQ->getNumRows()>0 && Helper::hasValue($magQ->getResultRow("image_id"))){
- ?>
-  <div id="monthlyMag">
-  <a href="number.php?id=<?php echo $magQ->getResultRow("rowid"); ?>">
-  <img src="image_thumb.php?source=<?php echo Settings::getUploadedImages().'/'.$magQ->getResultRow("file"); ?>&width=150" border="0"/>
-  </a>
+ <div id="monthlyMag">
+  <a href="number.php?id=0">
+ <img src="graphics/exempel/monthly_mag.jpg" width="154" height="185" border="0" />
+   </a>
   </div>
-  <?php 
-}
-
-?>
-
-
-<div id="competition">
-    <div class="veckansFragaBg"><span class="boldWhite"></span></div>
-    <div align="center"><span class="boldWhite"><a href="/blog">L&auml;s den hetaste h&aring;rdrocksbloggen idag!</a></span></div>
-    <div class="leftBoxFooter"></div>
+ <div id="shop">
+    <div class="shopBg"></div>
+    <div class="shopCenter"><span class="smallGreen">H&auml;r finns en online shop d&auml;r du kan hitta lite sm&aring;tt och gott</span><span class="boldWhite"></span></div>
   </div>
-  <?php 
- 
+ <div class="leftBox2">
+   <div class="leftBox2Middle"><span class="smallWhite">
+ <a href="#"> Artikelregister</a><br />
+  <a href="#">Nyhetsregister</a><br />
+  <a href="#">Recensioner</a><br />
+  <a href="#">Korsord</a><br />
+  <a href="#">Tävlingsvinnare/Svar</a><br />
+  <a href="#">Topp 40: 1991-2009 </a><br />
+  </span>
 
-$voteQ = new Query("vote_group");
-$voteQ->whereQuery("*","active",1,"rowid","DESC",1);
-if($voteQ->getNumRows()>0){
-	while($row = mysql_fetch_assoc($voteQ->getResult())){
-		$vote_itemsQ = new Query("vote_group_items");
-		$vote_itemsQ->whereQuery("*","group_id",$row['rowid'],"rowid","ASC",3);
-		$item1=mysql_result($vote_itemsQ->getResult(),0,"rowid");
-		$item2=mysql_result($vote_itemsQ->getResult(),1,"rowid");
-		$item3=mysql_result($vote_itemsQ->getResult(),2,"rowid");
-		$group=$row['rowid'];
-		?>
-  <div id="vote">
-    <div class="competitionBg"></div>
-    <div class="leftTextMargin"> <span class="boldWhite"><?php echo $row['title']; ?></span> <br />
-      <span class="boldWhite"><?php echo $row['description']; ?></span> <span class="lightGrey">
-      <form action="" method="post" name="form1" id="form1">
-        <table width="100%" border="0" cellpadding="0" cellspacing="0">
-          <tr>
-            <td width="20%"><input name="radio" type="radio" id="radio" 
-            onclick="MM_openBrWindow('vote_view_popup.php?group_item_id=<?php echo $item1?>&group_id=<?php echo $group?>','R&ouml;stning','width=300,height=200')"/>
-            </td>
-            <td width="80%"><?php echo mysql_result($vote_itemsQ->getResult(),0,"item_name"); ?></td>
-          </tr>
-          <tr>
-            <td><input type="radio" name="radio" id="radio2" onclick="MM_openBrWindow('vote_view_popup.php?group_item_id=<?php echo $item2?>&group_id=<?php echo $group?>','R&ouml;stning','width=300,height=200')" /></td>
-            <td><?php echo mysql_result($vote_itemsQ->getResult(),1,"item_name"); ?></td>
-          </tr>
-          <tr>
-            <td><input type="radio" name="radio" id="radio3" onclick="MM_openBrWindow('vote_view_popup.php?group_item_id=<?php echo $item3?>&group_id=<?php echo $group?>','R&ouml;stning','width=300,height=200')" /></td>
-            <td><?php echo mysql_result($vote_itemsQ->getResult(),2,"item_name"); ?></td>
-          </tr>
-        </table>
-      </form>
-      </span> <br />
-      <span class="smallWhite"><a href="#" style="text-decoration:underline" onclick="MM_openBrWindow('vote_view_popup.php?group_id=<?php echo $group?>','R&ouml;stning','width=300,height=200')" />Se resultat</a></span><br />
-    </div>
-    <div class="leftBoxFooter"></div>
+  <img src="graphics/left_box_stripe.png" width="125" class="leftBox2Stripe" />
+  
+  <img src="graphics/redaktionen.png" class="leftBox2Title"/><br />
+  
+  <span class="smallWhite">
+ <a href="#"> Artikelregister</a><br />
+  <a href="#">Nyhetsregister</a><br />
+  <a href="#">Recensioner</a><br />
+  <a href="#">Korsord</a><br />
+  <a href="#">Tävlingsvinnare/Svar</a><br />
+  <a href="#">Topp 40: 1991-2009 </a><br />
+  </span>
+  
   </div>
-  <?php
-		
-	}
-}
-?>
- <div class="leftCenterDivFlow">
-  <a href="shop2.php"><img src="graphics/closeup_shop.gif" border="0" alt="Shop" /></a><br /><br />
 
-   <a href="shop2.php"><img src="graphics/shop2.gif" border="0" alt="Shop"/></a><br />
-   <br />
- <span class="smallGrey"><a href="shop2.php">Kolla in v&aring;ran nya shop med massor av tuffa prylar!</a></span><br />
-   <span class="smallOrange"><a href="shop2.php">Till shoppen</a></span>
-   <br />
-   <br />
 
- <hr class="hr2" noshade="noshade" />
 </div>
-  <div class="leftCenterDivFlow"> <img src="graphics/closeupArkiv.gif" /><br />
-    <br />
-    <span class="smallOrange"> <a href="article_archive.php">Artikelregister</a> <br />
-    <a href="news_archive.php">Nyhetsregister</a><br />
-    <a href="articles.php">Artiklar</a><br />
-    <a href="reviews.php">Recensioner</a><br />
-    <a href="crossword.php">Korsord</a><br />
-    <a href="contestWinners.php">T&auml;vlingsvinnare/Svar</a><br />
-    <a href="top40.php">Topp 40: 1991-<?php echo date("Y"); ?></a> </span> <br />
-    <br />
-    <hr class="hr2" noshade="noshade" /><br />
-    <p> <a href="interviews.php"><img src="graphics/interviews.gif" border="0" alt="Intervjuer"/></a><br />
-      <br />
-      <span class="smallGrey"><a href="interviews.php">Kolla p&aring; filmade intervjuer med dom hetaste artisterna och fr&aring;n de senaste evenemangen</a></span> <span class="smallOrange"> <a href="interviews.php">h&auml;r!</a></span><br /><br />
-    <p>
-    <hr class="hr2" noshade="noshade" />
-    </p>
-    <br />
-    <div class="leftCenterDivFlow">
-      <p> <img src="graphics/redaktionen.gif" /></p>
-      <span class="smallOrange"><a href="contact.php">Kontakt</a><br />
-      <a href="skribenter.php">Skribenter</a><br />
-      <a href="english.php">In English</a><br />
-      <a href="announce.php">Annonsera i Close-Up</a></span> </div>
-  </div>
-</div>
-<div id="centerContainer">
-<?php
+   
 
-$newest = new Query("new");
-$newest->whereAndLeftJoinImageQuery("*","active",1,"date","DESC");
-if($newest->getNumRows()>0){
 
-	?>
-<div class="newestHeaderBig"></div>
-<div class="newestBig">
-  <table border="0" cellpadding="0" cellspacing="0" class="noBorder">
-    <tr>
-      <td width="80" class="noPadding" rowspan="3"><a href="index.php?id=<?php echo $newest->getResultRow("rowid"); ?>"><img src="image_crop.php?source=<?php echo Settings::getUploadedImages().'/'.$newest->getResultRow("file");?>&dest=&thumb_size=100" class="imgWhiteBorder" /></a></td>
-      <td width="450" class="tdPadding" colspan="2"><span class="boldWhite"><a href="index.php?id=<?php echo $newest->getResultRow("rowid"); ?>"><?php echo $newest->getResultRow("title"); ?></a></span></td>
-    </tr>
-    <tr>
-      <td class="tdPadding" colspan="2"><span class="smallWhite"><a href="index.php?id=<?php echo $newest->getResultRow("rowid"); ?>"><?php 
-	  if($newest->getResultRow("description")!=""){
-			echo strip_tags(substr($newest->getResultRow("description"),0,300),'<b><br><strong>')."..."; 
-		}else{
-			echo strip_tags(substr($newest->getResultRow("text"),0,300),'<b><br><strong>')."..."; 
-	  }
-	  ?></a></span></td>
-    </tr>
-    <tr>
-      <td class="tdVertBottom"><span class="smallOrange"><a href="index.php?id=<?php echo $newest->getResultRow("rowid"); ?>">L&auml;s mer</a></span></td>
-      <td align="right" class="tdVertBottom"><span class="smallGrey"><?php echo date("Y-m-d",strtotime($newest->getResultRow("date"))); ?></span></td>
-    </tr>
-  </table>
+
 </div>
-<div class="newestFooterBig"></div>
-<?php
- }
- ?>
+
+

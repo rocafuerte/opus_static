@@ -27,21 +27,8 @@ function setLeftDivHeight(){
 
 //-->
 </script>
-<style>
-object {
-}
-#centerDivTrans embed {
-	width:164px;
-	height:164px;
-	margin:0px;
-	padding:0px;
-}
-.rightCenterDivFlow embed {
-	width:164px;
-	height:164px;
-	margin-bottom:10px;
-}
-</style>
+
+
 </head>
 <body>
 <div id="pageCell"> 
@@ -79,7 +66,7 @@ while($row = mysql_fetch_assoc($topBannerQ->getResult())){
  <a href="number.php"><img src="graphics/menuItems/annonsera.png" border="0" class="menuItem" /></a>
 
   <div id="showDate"><span class="smallWhite">Lördag 22 Augusti 2009</span></div>
- <div id="radio"><img src="graphics/menuItems/radio.png" width="80" height="30" /></div>
+ <div id="radio"><a href="#" onclick="MM_openBrWindow('radio.php','Radio','width=300,height=400,resizable=no')"><img src="graphics/menuItems/radio.png" width="80" height="30" border="0" /></a></div>
   </div>
 <div id="leftDiv">
  <div id="monthlyMag">
@@ -89,7 +76,7 @@ while($row = mysql_fetch_assoc($topBannerQ->getResult())){
   </div>
  <div id="shop">
     <div class="shopBg"></div>
-    <div class="shopCenter"><span class="smallGrey">H&auml;r finns en online shop d&auml;r du kan hitta lite sm&aring;tt och gott</span><span class="boldWhite"></span></div>
+    <div class="shopCenter"><span class="smallGreen">H&auml;r finns en online shop d&auml;r du kan hitta lite sm&aring;tt och gott</span><span class="boldWhite"></span></div>
   </div>
  <div class="leftBox2">
    <div class="leftBox2Middle"><span class="smallWhite">
@@ -115,8 +102,7 @@ while($row = mysql_fetch_assoc($topBannerQ->getResult())){
   </span>
   
   </div>
-<div class="leftBoxFooter">
-</div>
+
 
 </div>
    

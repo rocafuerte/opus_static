@@ -64,10 +64,10 @@ class Archive{
 			$personal = new Query("personal");
 			$personal->whereQuery("*","username",$q->getResultRow("published_by"),"rowid","ASC","1");
 			?>
-			 <div class="newsActual">
-				  <div class="newsHeader"><span class="smallGrey">
+			 
+				  <div class="newsHeader"><span class="dateAuthor">
 					<?php echo date("Y-m-d",strtotime($q->getResultRow("date"))).' '.$personal->getResultRow("first_name").' '.$personal->getResultRow("last_name"); ?>
-					</span><br />
+					</span><br /><br />
 					<span class="newsHeaderFont"><?php echo $q->getResultRow("title"); ?></span>
 				  </div>
 				  <div class="newsDescActual"><span class="boldGrey"><?php echo nl2br(strip_tags($q->getResultRow("description"),'<a><b><br><strong>')); ?></span></div>
@@ -99,7 +99,7 @@ class Archive{
 				 </div>
 				  <?php echo nl2br(strip_tags($q->getResultRow("text"),'<a><b><br><strong>')); ?>
 					<br /><br />
-			 </div>
+			
 			 <?php 
 		 }
 	}

@@ -3,11 +3,11 @@
 <head>
 <link href="css_config/player.css" rel="stylesheet" type="text/css" />
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<title>Close-Up Radio</title>
+<title>Close-up Radio</title>
 
 </head>
 
-<body style="margin:0px; padding:0px;">
+<body style="margin:0px; padding:0px; background-color:#000;">
 
 <div id="pagecell">
   <div align="left">

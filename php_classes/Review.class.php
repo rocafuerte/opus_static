@@ -34,7 +34,7 @@ class Review{
 			  </tr>
 			  <tr>
 				<td class="tdVertBottom"><span class="smallPink"><a href="?id=<?php echo $row['rowid']; ?>">L&auml;s mer</a></span></td>
-				<td class="tdVertBottom" align="right"><span class="smallGrey"><?php echo date("Y-m-d",strtotime($row['date'])); ?></span></td>
+				<td class="tdVertBottom" align="right"><span class="dateAuthor"><?php echo date("y-m-d",strtotime($row['date'])); ?></span></td>
 			  </tr>
 			</table>
 			<?		 
@@ -46,7 +46,7 @@ class Review{
 			$query = new Query($this->q->getTable());
 			$query->whereLeftJoinImageQuery("*","rowid",$_GET['id'],"date","ASC");
 			?>
-			<div class="newsHeader"><span class="smallGrey"><?php echo date("Y-m-d",strtotime($query->getResultRow("date")));?></span> <br />
+			<div class="newsHeader"><span class="dateAuthor"><?php echo date("y-m-d",strtotime($query->getResultRow("date")));?></span> <br />
 			
 			<span class="newsHeaderSmaller"><?php echo $query->getResultRow("title");?></span></div>
 			  
