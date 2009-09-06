@@ -1,6 +1,3 @@
-<!-- </div>
-centerDiv-->
-
 </div>
 
 <div class="rightCenterContent">
@@ -8,102 +5,66 @@ centerDiv-->
 <div class="rightCenterDivBg">
 
 <div id="searchDiv">
-
 <form action="index.php" method="post">
-
 <input name="search" type="text" class="searchField" height="15" size="20">
-
 </form>
-
 </div>
-
 <!-- searchDiv -->
 
+
+
 <div class="rightCenterDivFlow">
-
 <a href="tv.php">
-
 <span class="rightCenterDivTitle">
-
 OPUS TV 
 </span>
-
 </a>
-
 <br />
-
 <object width="162" height="126">
-
 <param name="movie" value="http://www.youtube.com/v/YjO_VXHxsRw&hl=sv&fs=1&">
 </param>
-
 <param name="allowFullScreen" value="true">
 </param>
-
 <param name="allowscriptaccess" value="always">
 </param>
-
 <embed src="http://www.youtube.com/v/YjO_VXHxsRw&hl=sv&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="162" height="126">
-
 </embed>
-
 </object>
-
-
 <span class="smallGrey">
 På Opus TV kan du kolla på spelningar och andra videoklipp</span>
 <br />
-
 <hr class="hr2" noshade="noshade" />
-
 </div>
-
 <!-- rightCenterDivFlow -->
 
 
 <div class="rightCenterDivFlow">
-
-<a href="tv.php">
- 
+<a href="tavlingar.php">
 <span class="rightCenterDivTitle">
-
 Tävla och vinn
 </span>
-
 </a>
-
 <br />
-
 <a href="#">
 <img src="graphics/exempel/compete.png" width="162" height="115" border="0" />
 </a>
-
 <span class="smallGrey">
-
 Kan du svaret? skicka in det och få chansen att vinna!
 </span>
 <br />
-
 </div>
-
 <!-- rightCenterDivFlow -->
 
 </div>
-
-<p>
-
 <!-- rightCenterDivBg -->
-
+<p>
 </p>
 
 
 <div class="rightCenterDivBg">
 
-<!-- searchDiv -->
-
 <div class="rightCenterDivFlow">
-<a href="tv.php">
- 
+<a href="#">
 <span class="boldBlack">
 Lite andra nyheter p&aring; denh&auml;r sidan
 <br />
@@ -119,6 +80,8 @@ På Opus TV kan du kolla på spelningar och andra videoklipp
 <hr class="hr2" noshade="noshade" />
 </div>
 <!-- rightCenterDivFlow -->
+
+
 <div class="rightCenterDivFlow">
 <a href="tv.php">
  <span class="boldBlack">
