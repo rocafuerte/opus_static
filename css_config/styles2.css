@@ -28,11 +28,13 @@ a{
 	text-decoration:none;
 }
 
-img a{
+a img{
 	border:0px;
 }
 
 object {
+	width:162px;
+	height:126px;
 }
 
 .newsBg embed {
