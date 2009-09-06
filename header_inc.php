@@ -33,21 +33,7 @@ function setLeftDivHeight(){
 <body>
 <div id="pageCell"> 
 
-<?php
-$topBannerQ = new Query("banners");
-$topBannerQ->whereLeftJoinImageQuery("*","category","top","date","ASC",1);
-while($row = mysql_fetch_assoc($topBannerQ->getResult())){
-	?>
-<table border="0" cellpadding="0" cellspacing="0" align="right" width="100">
-<tr>
-<td class="tdVertTop"><!--<img src="graphics/annonspilVertical.gif" />-->&nbsp;</td>
-<td class="tdVertTop"><a href="<?php echo $row['link'];?>" target="<?php echo $row['target'];?>"><a href="<?php echo $row['link'];?>" target="<?php echo $row['target'];?>"><img src="<?php echo Settings::getUploadedImages().'/'.$row['file']; ?>" width="32" height="32" class="topBanners"/>top ban</a></td>
-</tr>
-</table>
-  
-  <?php
-}
-?>
+
 <div id="topDiv">
 <div id="slogan"><img src="graphics/slogan.png" width="506" height="10" /></div>
  <img src="graphics/exempel/topbanner.png" width="980" height="120" class="topBanner"/>

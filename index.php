@@ -2,58 +2,34 @@
 	
 
 <div id="centerDiv">
-
-
 <div class="newsBg">
 
 <div class="newsHeader">
-
-		<span class="newsHeaderFont">
+<span class="newsHeaderFont">
 Salo och Tingstrand g&aring;r skilda v&auml;gar</span>
-
 <span class="dateAuthor">
-03-16-2008 / </span>
+03-16-2008 / 
+</span>
 <span class="dateAuthorPink">
-FABIAN RIOS</span>
-
+FABIAN RIOS
+</span>
 </div>
-
 <div class="newsDescActual">
 <span class="smallBoldBlack">
-Nu n&auml;r utvecklingspaketet till Ozzy sl&auml;ppts visar det sig sig att Close up &auml;r r&auml;dda f&ouml;r konkurrens och  har st&auml;ngt d&ouml;rrarna till en av Ozzys bilar.</span>
+Nu n&auml;r utvecklingspaketet till Ozzy sl&auml;ppts visar det sig sig att Close up &auml;r r&auml;dda f&ouml;r konkurrens och  har st&auml;ngt d&ouml;rrarna till en av Ozzys bilar.
+</span>
 </div>
-
 <div class="newsPicActual">
 <img src="../opus_design/template/8625_getty_20080128162451.jpg" width="313" height="206"/>
- Foto: Random</div>
-
-<div class="newsActualText">
-MacWorld har tidigare uppm&auml;rksammat Greenpeaces lista &ouml;ver hur pass milj&ouml;medvetna diverse elektronikf&ouml;retag &auml;r. <br />
-
-<br />
-
-I den sjunde upplagan av “<a href="http://www.greenpeace.org/international/campaigns/toxics/electronics/how-the-companies-line-up">
-Guide to Greener Electronics</a>
-”  kl&auml;ttrar Apple upp till nionde plats, n&aring;got som inneb&auml;r att f&ouml;retaget  nu f&ouml;r f&ouml;rsta g&aring;ngen befinner sig p&aring; halvan &ouml;ver f&ouml;retag som sk&ouml;ter sig  hyfsat.<br />
-
-<br />
-
-J&auml;mf&ouml;rt med hur det s&aring;g ut f&ouml;r ett  &aring;r sedan har Apple blivit betydligt mer milj&ouml;medvetet. D&aring; rankades  Apple sist med 2,7 po&auml;ng av 10 m&ouml;jliga. Nu &auml;r po&auml;ngen uppe i 6,7 av 10. <br />
-
-<br />
-
-Bakom Apples uppg&aring;ng anges minskad anv&auml;ndning av farliga kemikalier, ett nytt &aring;tervinningsprogram och nya milj&ouml;v&auml;nliga Macbook Air.<br />
-
-<br />
-
-Allra mest milj&ouml;medvetna &auml;r man p&aring; Samsung och Toshiba som b&aring;da f&aring;r 7,7 po&auml;ng av Greenpeace.<br />
-
-<br />
-
-&Ouml;verl&auml;gset sist ligger Nintendo som f&aring;r ynka 0,3 po&auml;ng. Huvudorsaken till bottenplatsen &auml;r en total avsaknad av &aring;tervinningspolicy.
-
+ Foto: Random
 </div>
-
+<div class="newsActualText">
+MacWorld har tidigare uppm&auml;rksammat Greenpeaces lista &ouml;ver hur pass milj&ouml;medvetna diverse elektronikf&ouml;retag &auml;r. 
+<a href="http://www.greenpeace.org/international/campaigns/toxics/electronics/how-the-companies-line-up">
+Guide to Greener Electronics
+</a>
+<br />
+</div>
 </div>
 
 
@@ -61,285 +37,184 @@ Allra mest milj&ouml;medvetna &auml;r man p&aring; Samsung och Toshiba som b&ari
 
 
 <div class="newsFlow">
-
 <div class="bg">
-
 <img src="graphics/exempel/flute.png" width="168" height="222" />
-
 <div class="head">
-
-
 <span class="dateAuthor">
-
 03-16-2008 / 
 </span>
-
-
 <span class="dateAuthorPink">
-
 Fabian Rios
 </span>
-
 </div>
-
-
 <div class="title">
-
 <span class="newsHeaderSmaller">
-
 <a href="#">
-
 Salo och Tingstrand g&aring;r skilda v&auml;gar
 </a>
-
 </span>
-
 </div>
-
-
 <div class="desc">
-
 <a href="#">
-
 Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. 
 </a>
-
-
-
+</div>
+</div>
 </div>
 
-</div>
 
-</div>
 
 <div class="newsFlow2">
-
 <div class="bg">
-
 <div class="head">
 <span class="dateAuthor">
-03-16-2008 / </span>
+03-16-2008 / 
+</span>
 <span class="dateAuthorPink">
-FABIAN RIOS</span>
+FABIAN RIOS
+</span>
 </div>
-
 <div class="title">
 <span class="newsHeaderSmaller">
-Salo och Tingstrand g&aring;r skilda v&auml;gar</span>
+Salo och Tingstrand g&aring;r skilda v&auml;gar
+</span>
 </div>
-
 <div class="desc">
-Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. </div>
-
+Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. 
 </div>
-
+</div>
 </div>
 
 
 
 <div class="newsFlow3">
-
 <img src="../opus_design/template/8625_getty_20080128162451.jpg" width="343" height="226"/>
 <br />
-
 <div class="bg">
-
 <div class="head">
 <span class="dateAuthor">
-03-16-2008 / </span>
+03-16-2008 / 
+</span>
 <span class="dateAuthorPink">
-Fabian Rios</span>
+Fabian Rios
+</span>
 </div>
-
 <div class="title">
 <span class="newsHeaderSmaller">
-Salo och Tingstrand g&aring;r skilda v&auml;gar</span>
+Salo och Tingstrand g&aring;r skilda v&auml;gar
+</span>
 </div>
-
 <div class="desc">
-Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. </div>
-
+Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. 
 </div>
-
 </div>
-
-
+</div>
 
 
 
 <div class="newsFlow2">
-
 <div class="bg">
-
 <div id="descent">
-
 <ul>
-
 <li>
- 
 <span class="dateAuthor">
-
 2008-02-30
 </span>
-
 <br />
-
 <a href="#">
-
 Antalet h&aring;rdrockare i forshaga &ouml;kar drastiskt
 </a>
-
 </li>
-
 <li>
- 
 <span class="dateAuthor">
-
-2008-02-24</span>
-
+2008-02-24
+</span>
 <br />
-
 <a href="#">
-
 Nya chefen f&ouml;r ica heter per
 </a>
- 
 </li>
-
 <li>
- 
 <span class="dateAuthor">
- 
 2008-02-13
 <br />
-
 <a href="#">
-
 Closeup &auml;r sveriges st&ouml;rsta h&aring;rdrockstidning!
 </a>
- 
 </li>
-
 </ul>
-
 </div>
-
-
 </div>
-
 </div>
-
 </div>
-
-
 	
-
-<!-- </div>
-centerDiv-->
+<!-- centerDiv-->
 
 </div>
-
 <div class="rightCenterContent">
-
 <div class="rightCenterDivBg">
-
 <div id="searchDiv">
-
 <form action="index.php" method="post">
-
 <input name="search" type="text" class="searchField" height="15" size="20">
-
+1111
 </form>
-
 </div>
-
 <!-- searchDiv -->
 
 <div class="rightCenterDivFlow">
-
 <a href="tv.php">
-
 <span class="righCenterDivTitle">
-
 OPUS TV 
 </span>
-
 </a>
-
 <br />
-
 <object width="162" height="126">
-
 <param name="movie" value="http://www.youtube.com/v/YjO_VXHxsRw&hl=sv&fs=1&">
 </param>
-
 <param name="allowFullScreen" value="true">
 </param>
-
 <param name="allowscriptaccess" value="always">
 </param>
-
 <embed src="http://www.youtube.com/v/YjO_VXHxsRw&hl=sv&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="162" height="126">
-
 </embed>
-
 </object>
-
-
 <span class="smallGrey">
-På Opus TV kan du kolla på spelningar och andra videoklipp</span>
+På Opus TV kan du kolla på spelningar och andra videoklipp
+</span>
 <br />
-
 <hr class="hr2" noshade="noshade" />
-
 </div>
 
 <!-- rightCenterDivFlow -->
 
 
 <div class="rightCenterDivFlow">
-
-<a href="tv.php">
- 
+<a href="tavlingar.php">
 <span class="righCenterDivTitle">
-
 Tävla och vinn
 </span>
-
 </a>
-
 <br />
-
 <a href="#">
 <img src="graphics/exempel/compete.png" width="162" height="115" border="0" />
 </a>
-
 <span class="smallGrey">
-
 Kan du svaret? skicka in det och få chansen att vinna!
 </span>
 <br />
-
 </div>
 
 <!-- rightCenterDivFlow -->
-
 </div>
-
 <p>
-
 <!-- rightCenterDivBg -->
-
 </p>
 
 
 <div class="rightCenterDivBg">
-
 <!-- searchDiv -->
-
 <div class="rightCenterDivFlow">
 <a href="tv.php">
- 
 <span class="boldBlack">
 Lite andra nyheter p&aring; denh&auml;r sidan
 <br />
@@ -369,10 +244,16 @@ Kan du svaret? skicka in det och få chansen att vinna!
 </span>
 </div>
 <!-- rightCenterDivFlow -->
+
 </div>
 <!-- rightCenterDivBg -->
+
 </div>
 <!-- rightCenterContent-->
+
+
+
+
 <div id="rightBannerDiv">
 <!--<img src="graphics/annonspil.gif" alt="Annonser"/>
  -->
@@ -381,6 +262,10 @@ Kan du svaret? skicka in det och få chansen att vinna!
 </a>
 </div>
 <!--rightBannerDiv-->
+
+
+
+
 <div id="footer">
  P.O. Box 4411 SE-102 69 Stockholm   Sweden |  + 46-8 462 02 14|  mail@closeupmagazine.net | Rocafuerte design
 </div>
