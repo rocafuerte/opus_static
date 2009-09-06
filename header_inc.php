@@ -96,25 +96,11 @@ function setLeftDivHeight(){
 
 
 </div>
+
+
+
 <div id="centerContainer">
-<!--
-<div class="newestHeader"></div>
-<div class="newest">
-  <table border="0" cellpadding="0" cellspacing="0" class="noBorder">
-    <tr>
-      <td width="80" class="noPadding" rowspan="3"><a href="#"><img src="# class="imgWhiteBorder" /></a></td>
-      <td width="270" class="tdPadding" colspan="2"><span class="boldWhite"><a href="#">TEST</a></span></td>
-    </tr>
-    <tr>
-      <td class="tdPadding" colspan="2"><p class="smallWhite"><a href="#">
-       
-      </a></p></td>
-    </tr>
-    <tr>
-      <td class="tdVertBottom"><span class="smallOrange"><a href="#">L&auml;s mer</a></span></td>
-      <td align="right" class="tdVertBottom"><span class="smallGrey">09-03-12</span></td>
-    </tr>
-  </table>
-</div>
-<div class="newestFooter"></div>-->
+
+
+
 

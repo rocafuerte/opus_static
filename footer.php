@@ -46,7 +46,7 @@ Tävla och vinn
 </a>
 <br />
 <a href="#">
-<img src="graphics/exempel/compete.png" width="162" height="115" border="0" />
+<img src="graphics/exempel/compete.png" width="162" height="115" />
 </a>
 <span class="smallGrey">
 Kan du svaret? skicka in det och få chansen att vinna!
@@ -106,12 +106,13 @@ Kan du svaret? skicka in det och få chansen att vinna!
 <a href="#" target="_blank">
 <img src="graphics/exempel/banner.png" class="rightBanners" width="250" alt=""/>
 </a>
+
 </div>
 <!--rightBannerDiv-->
 <div id="footer">
  P.O. Box 4411 SE-102 69 Stockholm   Sweden |  + 46-8 462 02 14|  mail@closeupmagazine.net | Rocafuerte design
-</div>
-</div>
+
+</div></div>
 <!-- pagecell -->
 <!-- footer -->
 <br />
