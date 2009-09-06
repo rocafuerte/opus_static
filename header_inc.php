@@ -31,6 +31,8 @@ function setLeftDivHeight(){
 
 </head>
 <body>
+<div id="pageCellShadowTop"></div>
+<div id="pageCellShadow">
 <div id="pageCell"> 
 
 

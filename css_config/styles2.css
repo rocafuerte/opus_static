@@ -1584,25 +1584,25 @@ hr {
 }
 .smallWhite a:link {
 	font-family:Verdana, Arial, Helvetica, sans-serif;
-	font-size:9px;
+	font-size:10px;
 	color:#FFFFFF;
 	font-weight:normal;
 	line-height:17px;
-	text-decoration:underline;
+	text-decoration:none;
 }
 .smallWhite a:visited {
 	font-family:Verdana, Arial, Helvetica, sans-serif;
 	font-size:10px;
 	color:#FFFFFF;
 	font-weight:normal;
-	text-decoration:underline;
+	text-decoration:none;
 }
 .smallWhite a:hover {
 	font-family:Verdana, Arial, Helvetica, sans-serif;
-	font-size:9px;
+	font-size:10px;
 	color:#FFFFFF;
 	font-weight:normal;
-	text-decoration:none;
+	text-decoration:underline;
 }
 
 .rightCenterDivTitle{

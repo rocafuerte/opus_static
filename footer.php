@@ -71,7 +71,7 @@ Lite andra nyheter p&aring; denh&auml;r sidan
 </span>
 </a>
 <a href="#">
-<img src="graphics/exempel/Untitled-1.jpg" width="162" height="124" border="0" />
+<img src="graphics/exempel/Untitled-1.jpg" width="162" height="124" />
 </a>
 <span class="smallGreyDarker">
 På Opus TV kan du kolla på spelningar och andra videoklipp
@@ -112,8 +112,9 @@ Kan du svaret? skicka in det och få chansen att vinna!
 <div id="footer">
  P.O. Box 4411 SE-102 69 Stockholm   Sweden |  + 46-8 462 02 14|  mail@closeupmagazine.net | Rocafuerte design
 
-</div></div>
+</div></div></div>
 <!-- pagecell -->
+<!-- pageCellShadow -->
 <!-- footer -->
 <br />
 <br />
