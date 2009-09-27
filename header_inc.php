@@ -39,23 +39,28 @@ function setLeftDivHeight(){
 <div id="topDiv">
 <div id="slogan"><img src="graphics/slogan.png" width="506" height="10" /></div>
  <img src="graphics/exempel/topbanner.png" width="980" height="120" class="topBanner"/>
-<img src="graphics/logo.png" class="logo"/>
-  
+ 
+ <div id="topBar">
+ <div  class="logo"><img src="graphics/logo.png" width="288" height="93"></div>
+
+  <div id="radioDate">
+  <div id="showDate"><span class="smallWhite">Lördag 22 Augusti 2009</span></div>
+  <div id="radio"><a href="#" onclick="MM_openBrWindow('radio.php','Radio','width=300,height=400,resizable=no')"><img src="graphics/menuitems/radio.png" width="65" height="28" border="0" /></a></div>
+</div>
+<div id="menuBar">
+  <a href="#" class="menuItem"><img src="graphics/menuItems/nyheter.png" width="54" height="30" alt="Senaste nytt"/></a>
+  <a href="events.php" class="menuItem"><img src="graphics/menuItems/recensioner.png" /></a>
+  <a href="/blog" class="menuItem"><img src="graphics/menuItems/butik.png" alt="Om OPUS" /></a>    
+  <a href="/forum" class="menuItem"><img src="graphics/menuItems/prenumeration.png" /></a>  
+  <a href="/forum" class="menuItem"><img src="graphics/menuItems/bloggar.png" /></a>
+  <a href="/blog" class="menuItem"><img src="graphics/menuItems/om.png" alt="Om OPUS" /></a>
+  <a href="/forum" class="menuItem"><img src="graphics/menuItems/annonsera.png" /></a>  
+
+
+</div>
+  </div>
 </div>
 
-<div id="menuBar">
- <a href="#"> <img src="graphics/menuItems/senaste.png" border="0" class="menuItem" /></a>
- <a href="events.php"><img src="graphics/menuItems/musik.png" border="0"class="menuItem" /></a>
- <a href="/blog"><img src="graphics/menuItems/om.png" border="0" class="menuItem" /></a>
- <a href="/forum"><img src="graphics/menuItems/shop.png" border="0" class="menuItem" /></a>
- <a href="/forum/viewforum.php?f=3"><img src="graphics/menuItems/tavlingar.png" border="0" class="menuItem"/></a>
- <a href="vimmel.php"><img src="graphics/menuItems/prenumeration.png" border="0" class="menuItem"/></a>
- <a href="prenumeration.php"><img src="graphics/menuItems/koncertkalendern.png" border="0" class="menuItem" /></a>
- <a href="number.php"><img src="graphics/menuItems/annonsera.png" border="0" class="menuItem" /></a>
-
-  <div id="showDate"><span class="smallWhite">Lördag 22 Augusti 2009</span></div>
- <div id="radio"><a href="#" onclick="MM_openBrWindow('radio.php','Radio','width=300,height=400,resizable=no')"><img src="graphics/menuItems/radio.png" width="80" height="30" border="0" /></a></div>
-  </div>
 <div id="leftDiv">
  <div id="monthlyMag">
   <a href="number.php?id=0">
