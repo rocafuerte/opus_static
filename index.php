@@ -110,6 +110,7 @@ Antalet h&aring;rdrockare i forshaga &ouml;kar drastiskt
 Nya chefen f&ouml;r ica heter per
 </a>
 </li>
+
 <li>
 <span class="dateAuthor">
 2008-02-13
@@ -118,7 +119,27 @@ Nya chefen f&ouml;r ica heter per
 Closeup &auml;r sveriges st&ouml;rsta h&aring;rdrockstidning!
 </a>
 </li>
+
+<li>
+<span class="dateAuthor">
+2008-02-13
+<br />
+<a href="#">
+Closeup &auml;r sveriges st&ouml;rsta h&aring;rdrockstidning!
+</a>
+</li>
+
+<li>
+<span class="dateAuthor">
+2008-02-13
+<br />
+<a href="#">
+Closeup &auml;r sveriges st&ouml;rsta h&aring;rdrockstidning!
+</a>
+</li>
+
 </ul>
+
 </div>
 </div>
 </div>

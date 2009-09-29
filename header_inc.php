@@ -49,12 +49,12 @@ function setLeftDivHeight(){
 </div>
 <div id="menuBar">
   <a href="#" class="menuItem"><img src="graphics/menuItems/nyheter.png" width="54" height="30" alt="Senaste nytt"/></a>
-  <a href="events.php" class="menuItem"><img src="graphics/menuItems/recensioner.png" /></a>
-  <a href="/blog" class="menuItem"><img src="graphics/menuItems/butik.png" alt="Om OPUS" /></a>    
-  <a href="/forum" class="menuItem"><img src="graphics/menuItems/prenumeration.png" /></a>  
-  <a href="/forum" class="menuItem"><img src="graphics/menuItems/bloggar.png" /></a>
-  <a href="/blog" class="menuItem"><img src="graphics/menuItems/om.png" alt="Om OPUS" /></a>
-  <a href="/forum" class="menuItem"><img src="graphics/menuItems/annonsera.png" /></a>  
+  <a href="#" class="menuItem"><img src="graphics/menuItems/recensioner.png" /></a>
+  <a href="#" class="menuItem"><img src="graphics/menuItems/butik.png" alt="Om OPUS" /></a>    
+  <a href="#" class="menuItem"><img src="graphics/menuItems/prenumeration.png" /></a>  
+  <a href="#" class="menuItem"><img src="graphics/menuItems/bloggar.png" /></a>
+  <a href="#" class="menuItem"><img src="graphics/menuItems/om.png" alt="Om OPUS" /></a>
+  <a href="#" class="menuItem"><img src="graphics/menuItems/annonsera.png" /></a>  
 
 
 </div>

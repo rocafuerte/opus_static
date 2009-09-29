@@ -30,7 +30,7 @@ OPUS TV
 <embed src="http://www.youtube.com/v/YjO_VXHxsRw&hl=sv&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="162" height="126">
 </embed>
 </object>
-<span class="smallGrey">
+<span class="smallGreyDarker">
 På Opus TV kan du kolla på spelningar och andra videoklipp</span>
 <br />
 <hr class="hr2" noshade="noshade" />
@@ -48,7 +48,7 @@ Tävla och vinn
 <a href="#">
 <img src="graphics/exempel/compete.png" width="162" height="115" />
 </a>
-<span class="smallGrey">
+<span class="smallGreyDarker">
 Kan du svaret? skicka in det och få chansen att vinna!
 </span>
 <br />

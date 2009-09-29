@@ -293,6 +293,7 @@ hr {
 
 .menuItem {
 	float:left;
+            margin-left:20px;
 }
 #radio {
 	padding:0px;
@@ -1117,7 +1118,7 @@ hr {
 	color:#000000;
 	width:313px;
 	float:left;
-	padding-left: 15px;
+	padding-left: 0px;
 	padding-right: 15px;
 }
 
@@ -1270,10 +1271,10 @@ hr {
 	font-family:"Bell MT", "Times New Roman";
 	font-size:18px;
 	font-weight:normal;
-	color:#ffffff;
+	color:#00000;
 	width:313px;
 	float:left;
-	padding-left: 15px;
+	padding-left: 0px;
 	padding-right: 15px;
 }
 
@@ -1452,6 +1453,7 @@ hr {
 	padding-right: 15px;
 	padding-top: 40px;
 	padding-bottom: 20px;
+           background-color: #dedede;
 }
 #descent ul {
 	margin:0px;
@@ -1507,9 +1509,9 @@ hr {
 	padding-top: 10px;
 	padding-left: 0px;
 	background-color:none;
-	;
-	color: #FFF;
-	border-top: 1px solid #FFF;
+	
+	color: #222222;
+	border-top: 1px solid #222222;
 	font-weight: bold;
 }
 .style1 {
