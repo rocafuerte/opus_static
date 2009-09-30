@@ -37,16 +37,29 @@ function setLeftDivHeight(){
 
 
 <div id="topDiv">
-<div id="slogan"><img src="graphics/slogan.png" width="506" height="10" /></div>
+<div id="slogan">
+<img src="graphics/slogan.png" width="506" height="10" />
+</div>
  <img src="graphics/exempel/topbanner.png" width="980" height="120" class="topBanner"/>
  
  <div id="topBar">
- <div  class="logo"><img src="graphics/logo.png" width="288" height="93"></div>
+ <div  class="logo">
+<img src="graphics/logo.png" width="288" height="93">
+</div>
 
   <div id="radioDate">
-  <div id="showDate"><span class="smallWhite">Lördag 22 Augusti 2009</span></div>
-  <div id="radio"><a href="#" onclick="MM_openBrWindow('radio.php','Radio','width=300,height=400,resizable=no')"><img src="graphics/menuitems/radio.png" width="65" height="28" border="0" /></a></div>
+  <div id="showDate">
+<span class="smallWhite">
+Lördag 22 Augusti 2009
+</span>
 </div>
+<div id="radio">
+<a href="#" onclick="MM_openBrWindow('radio.php','Radio','width=300,height=400,resizable=no')">
+<img src="graphics/menuitems/radio.png" width="65" height="28" border="0" />
+</a>
+</div>
+</div>
+
 <div id="menuBar">
   <a href="#" class="menuItem"><img src="graphics/menuItems/nyheter.png" width="54" height="30" alt="Senaste nytt"/></a>
   <a href="#" class="menuItem"><img src="graphics/menuItems/recensioner.png" /></a>
@@ -55,11 +68,11 @@ function setLeftDivHeight(){
   <a href="#" class="menuItem"><img src="graphics/menuItems/bloggar.png" /></a>
   <a href="#" class="menuItem"><img src="graphics/menuItems/om.png" alt="Om OPUS" /></a>
   <a href="#" class="menuItem"><img src="graphics/menuItems/annonsera.png" /></a>  
-
+</div>
 
 </div>
-  </div>
 </div>
+
 
 <div id="leftDiv">
  <div id="monthlyMag">
@@ -67,12 +80,21 @@ function setLeftDivHeight(){
  <img src="graphics/exempel/monthly_mag.jpg" width="154" height="185" border="0" />
    </a>
   </div>
+
+
  <div id="shop">
     <div class="shopBg"></div>
-    <div class="shopCenter"><span class="smallGreen">H&auml;r finns en online shop d&auml;r du kan hitta lite sm&aring;tt och gott</span><span class="boldWhite"></span></div>
-  </div>
- <div class="leftBox2">
-   <div class="leftBox2Middle"><span class="smallWhite">
+    <div class="shopCenter">
+<span class="smallGreen">
+H&auml;r finns en online shop d&auml;r du kan hitta lite sm&aring;tt och gott
+</span>
+<span class="boldWhite">
+</span>
+</div>
+</div>
+<div class="leftBox2">
+<div class="leftBox2Middle">
+<span class="smallWhite">
  <a href="#"> Artikelregister</a><br />
   <a href="#">Nyhetsregister</a><br />
   <a href="#">Recensioner</a><br />
