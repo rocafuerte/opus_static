@@ -2,31 +2,64 @@
 
 <div id="centerDiv">
 <div class="newsBg">
-<?php
+<div class="reviewActual">
+<div class="title">
+<span class="newsHeaderFont">
+ Blandad kompott 
+ </span>
+ </div>
+<img src="graphics/exempel/compete.png" width="311" height="221" class="img"/>
+<div class="description">
+Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. 
+</div>
+
+<div class="info">
+<span class="custom">
+<span class="infoTitle">
+SOLIST
+</span>
+H&eacute;l&egrave;ne Grimaud
+<br />
+<span class="infoTitle">DIRIGENT</span> Florian Donderer
+<br />
+<span class="infoTitle">CD</span> DG 477 7978
+<br />
+<span class="infoTitle">BETYG</span>&nbsp;<img src="graphics/filled_star.gif" width="10" height="10" /><img src="graphics/filled_star.gif" width="10" height="10" /><img src="graphics/filled_star.gif" width="10" height="10" /><br />
+<span class="infoTitle">LJUDKVALITET</span>&nbsp;<img src="graphics/filled_star.gif" width="10" height="10" /><img src="graphics/filled_star.gif" width="10" height="10" /><img src="graphics/filled_star.gif" width="10" height="10" /><img src="graphics/filled_star.gif" width="10" height="10" /></span>
+<div class="author">
+EVABRITT SELÉN
+</div>
+</div>
+
+
+</div>
 
 
 
-$review=new Query("recensioner");
-$review->whereQuery("*","active",1,"date","DESC",10000);
-
-
-
-$paging=new Paging($review,20);
-
-$paging->where();
-
-$reviewShow = new Review($review);
-
-$reviewShow->showReview();
-
-$reviewShow->listReviews($paging);
-
-?>
-
-    
-<?php echo $paging->previousShow("se","smallPink").' '.$paging->nextShow("se","smallPink").'<br />'.$paging->linksShow2("se","smallGray","smallPink"); ?>
-
-
+<div class="reviewFlow">
+<img src="graphics/exempel/Untitled-1.jpg" height="100" width="100" class="img"/>
+<div class="title">Recension
+</div>
+<div class="description">
+Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum.</div>
+<div class="date">
+<span class="smallPink2">
+2009-09-22
+</span>
+</div>
+</div>
+<div class="reviewFlow">
+  <img src="graphics/exempel/Untitled-1.jpg" height="100" width="100" class="img"/>
+  <div class="title">Recension 2
+  </div>
+  <div class="description">
+    Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum.</div>
+  <div class="date">
+  <span class="smallPink2">
+    2009-09-22
+  </span>
+  </div>
+</div>
 </div>
 </div>
 

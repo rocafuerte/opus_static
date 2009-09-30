@@ -36,55 +36,62 @@ Guide to Greener Electronics
 
 
 
-
+<div class="newsFlow3"> <a href="#"><img src="../opus_design/template/8625_getty_20080128162451.jpg" width="343" height="226"/></a>
+<br />
+<div class="bg2">
+<div class="head2">
+03-16-2008 / 
+<span class="dateAuthorPink">
+Fabian Rios
+</span>
+</div>
+<div class="title2">
+Salo och Tingstrand g&aring;r skilda v&auml;gar
+</div>
+<div class="desc2">
+Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. 
+</div>
+</div>
+</div>
 
 
 
 <div class="newsFlow2">
 <div class="bg">
 <div class="head">
-<span class="dateAuthor">
 03-16-2008 / 
-</span>
-<span class="dateAuthorPink">
-FABIAN RIOS
-</span>
-</div>
-<div class="title">
-<span class="title2">
-Salo och Tingstrand g&aring;r skilda v&auml;gar
-</span>
-</div>
-<div class="desc">
-Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. 
-</div>
-</div>
-</div>
-
-
-
-<div class="newsFlow3">
-<img src="../opus_design/template/8625_getty_20080128162451.jpg" width="343" height="226"/>
-<br />
-<div class="bg">
-<div class="head">
-<span class="dateAuthor">
-03-16-2008 / 
-</span>
 <span class="dateAuthorPink">
 Fabian Rios
 </span>
 </div>
 <div class="title">
-<span class="title2">
 Salo och Tingstrand g&aring;r skilda v&auml;gar
-</span>
 </div>
 <div class="desc">
-Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. 
+<a href="#">Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. </a>
 </div>
 </div>
 </div>
+
+<div class="newsFlow">
+
+<div class="bg"><img src="from_opus/SFP-PhilipGlass-01.jpg" width="157" height="203" />
+  <div class="head">
+    03-16-2008 / 
+  <span class="dateAuthorPink">
+    Fabian Rios
+  </span>
+  </div>
+  <div class="title">
+    <a href="#">Salo och Tingstrand g&aring;r skilda v&auml;gar</a></div>
+  <div class="desc">
+  <a href="#">Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. Lorem ipsum, lorem ipsum dolor sit amet. </a>
+  </div>
+</div>
+</div>
+
+
+
 
 
 
@@ -110,7 +117,6 @@ Antalet h&aring;rdrockare i forshaga &ouml;kar drastiskt
 Nya chefen f&ouml;r ica heter per
 </a>
 </li>
-
 <li>
 <span class="dateAuthor">
 2008-02-13
@@ -119,27 +125,7 @@ Nya chefen f&ouml;r ica heter per
 Closeup &auml;r sveriges st&ouml;rsta h&aring;rdrockstidning!
 </a>
 </li>
-
-<li>
-<span class="dateAuthor">
-2008-02-13
-<br />
-<a href="#">
-Closeup &auml;r sveriges st&ouml;rsta h&aring;rdrockstidning!
-</a>
-</li>
-
-<li>
-<span class="dateAuthor">
-2008-02-13
-<br />
-<a href="#">
-Closeup &auml;r sveriges st&ouml;rsta h&aring;rdrockstidning!
-</a>
-</li>
-
 </ul>
-
 </div>
 </div>
 </div>

@@ -30,7 +30,7 @@ OPUS TV
 <embed src="http://www.youtube.com/v/YjO_VXHxsRw&hl=sv&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="162" height="126">
 </embed>
 </object>
-<span class="smallGreyDarker">
+<span class="smallBlack">
 På Opus TV kan du kolla på spelningar och andra videoklipp</span>
 <br />
 <hr class="hr2" noshade="noshade" />
@@ -48,7 +48,7 @@ Tävla och vinn
 <a href="#">
 <img src="graphics/exempel/compete.png" width="162" height="115" />
 </a>
-<span class="smallGreyDarker">
+<span class="smallBlack">
 Kan du svaret? skicka in det och få chansen att vinna!
 </span>
 <br />
@@ -110,15 +110,14 @@ Kan du svaret? skicka in det och få chansen att vinna!
 </div>
 <!--rightBannerDiv-->
 <div id="footer">
- P.O. Box 4411 SE-102 69 Stockholm   Sweden |  + 46-8 462 02 14|  mail@closeupmagazine.net | Rocafuerte design
-
-</div></div></div>
+<div class="direction">P.O. Box 4411 SE-102 69 Stockholm   Sweden |  + 46-8 462 02 14|  mail@closeupmagazine.net</div><img src="graphics/rocafuertedesign.gif" width="106" height="13" class="rocafuertedesign"/></div>
+</div>
+</div>
+<!-- footer -->
 <!-- pagecell -->
 <!-- pageCellShadow -->
-<!-- footer -->
-<br />
-<br />
-<br />
+<div id="pageCellShadowBottom"></div>
+
 <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));

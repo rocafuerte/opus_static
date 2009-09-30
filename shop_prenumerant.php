@@ -4,7 +4,7 @@
   
 
 
-
+<div class="newsBg">
 
 <span class="newsHeaderFont">Close-up shop</span><br />
 <br /><br />
@@ -591,5 +591,6 @@ LP-skivor, mp3-spelare<br />
 <a href="http://payson.se" target="_blank">
 <img src="graphics/QuickAgentHeader-smaller.gif" border="0"/>
 </a>
+</div>
 </div>
 <?php include "footer.php" ?>

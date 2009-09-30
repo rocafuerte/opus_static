@@ -4,9 +4,9 @@
 
 <div class="newsBg">
 
-<span class="newsHeaderFont">Close-Up shop</span>
+<span class="newsHeaderFont">OPUS shop</span>
 <br /><br />
-<span class="smallPink">
+<span class="smallBlackTitle">
 <p><a href="prenumeration.php">Prenumeration</a> | <a href="number.php">Gamla nummer</a> | <a href="shop.php"><strong>Kl&auml;der</strong></a></p>
 </span><br />
 <hr /><br />
