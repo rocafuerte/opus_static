@@ -29,12 +29,12 @@ a{
 	color:#000;
 }
 
-a:visited{
+a visited{
 	text-decoration:none;
 	color:#000;
 }
 
-a:hover{
+a hover{
 	color:#333333;
 }
 
@@ -451,6 +451,8 @@ hr {
 .leftBox2Title{
 	float:left;
 	margin-bottom: 5px;
+	clear: none;
+	width: 100%;
 }
 
 .leftBox2Middle{
@@ -1061,6 +1063,13 @@ hr {
 	padding-right: 0px;
 	padding-left: 10px;
 	height: auto;
+}
+
+.payson{
+	float:left;
+	border:1px solid #666666;
+	height:57px;
+	width:313px;
 }
 
 .tidigareFlow{
@@ -1733,8 +1742,8 @@ hr {
 .dateAuthor{
 	font-family:Verdana, Geneva, sans-serif;
 	font-size:9px;
-	color:#7E7E7E;
-	font-weight:bold;
+	color:#616161;
+	font-weight:normal;
 	letter-spacing:1px;
 	text-align:left;
 }
