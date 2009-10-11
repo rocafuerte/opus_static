@@ -1645,6 +1645,30 @@ hr {
 .mp3Player {
 	width:340px;
 }
+
+#searchResult {
+	width:313px;
+	background-image:url(../graphics/search_result.png);
+	background-repeat:no-repeat;
+	height:auto;
+	float: left;
+	margin-top:0px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+#searchResult ul {
+	margin:0px;
+	padding:0px;
+}
+#searchResults li {
+	list-style-type: none;
+	padding:0px;
+	display:list-item;
+	margin-bottom: 10px;
+}
+
 #descent {
 	width:313px;
 	background-image:url(../graphics/more_news.gif);
