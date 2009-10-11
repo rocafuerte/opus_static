@@ -1752,6 +1752,25 @@ hr {
 	background-color:none;
 }
 
+.title3{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#000;
+}
+
+.title3 a, .title3 a:visited{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#000;
+}
+
+.title3 a:hover{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#000;
+	text-decoration:underline;
+}
+
 .style1 {
 	font-family:Verdana, Arial, Helvetica, sans-serif;
 	font-size:16px;
