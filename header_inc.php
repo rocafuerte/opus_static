@@ -52,7 +52,7 @@ function setLeftDivHeight(){
   <a href="events.php" class="menuItem"><img src="graphics/menuItems/recensioner.png" /></a>
   <a href="/blog" class="menuItem"><img src="graphics/menuItems/butik.png" alt="Om OPUS" /></a>    
   <a href="/forum" class="menuItem"><img src="graphics/menuItems/prenumeration.png" /></a>  
-  <a href="/forum" class="menuItem"><img src="graphics/menuItems/bloggar.png" /></a>
+ <!-- <a href="/forum" class="menuItem"><img src="graphics/menuItems/bloggar.png" /></a>-->
   <a href="/blog" class="menuItem"><img src="graphics/menuItems/om.png" alt="Om OPUS" /></a>
   <a href="/forum" class="menuItem"><img src="graphics/menuItems/annonsera.png" /></a>  
 
@@ -69,16 +69,17 @@ function setLeftDivHeight(){
   </div>
  <div id="shop">
     <div class="shopBg"></div>
-    <div class="shopCenter"><span class="smallWhite">H&auml;r finns en online shop d&auml;r du kan hitta lite sm&aring;tt och gott</span><span class="boldWhite"></span></div>
+    <div class="shopCenter"><span class="smallWhite">K&ouml;p exklusiva OPUS-prylar, tidigare utg&aring;vor, utvalda cd &amp; dvd, t-shirts mm. H&auml;r hittar du julklappar och presenter f&ouml;r hela &aring;ret!</span><span class="boldWhite"></span></div>
   </div>
  <div class="leftBox2">
    <div class="leftBox2Middle"><span class="smallWhite">
- <a href="#"> Artikelregister</a><br />
-  <a href="#">Nyhetsregister</a><br />
-  <a href="#">Recensioner</a><br />
-  <a href="#">Korsord</a><br />
-  <a href="#">Tävlingsvinnare/Svar</a><br />
-  <a href="#">Topp 40: 1991-2009 </a><br />
+ <a href="#"> Nyhetsarkiv</a><br />
+  <a href="#">Tidigare utgåvor</a><br />  
+  <a href="#">Topplistan CD &amp; DVD </a><br />
+  <a href="#">Tävlingar</a><br />
+  <a href="#"></a><br />
+  
+
   </span>
 
   <img src="graphics/left_box_stripe.png" width="125" class="leftBox2Stripe" />
@@ -86,12 +87,9 @@ function setLeftDivHeight(){
   <img src="graphics/redaktionen.png" class="leftBox2Title"/><br />
   
   <span class="smallWhite">
- <a href="#"> Artikelregister</a><br />
-  <a href="#">Nyhetsregister</a><br />
-  <a href="#">Recensioner</a><br />
-  <a href="#">Korsord</a><br />
-  <a href="#">Tävlingsvinnare/Svar</a><br />
-  <a href="#">Topp 40: 1991-2009 </a><br />
+ <a href="#">Kontakta OPUS</a><br />
+  <a href="#">OPUS Skribenter</a><br />
+
   </span>
   
   </div>

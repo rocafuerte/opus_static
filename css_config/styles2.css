@@ -465,7 +465,7 @@ hr {
 	background-position-x: 0px;
 	background-image: url(../graphics/left_box_green2.png);
 	margin-bottom: 15px;
-	height: 100px;
+	height: 150px;
 	margin-top: 15px;
 	background-color: #ACBD4C;
 }
@@ -946,10 +946,18 @@ hr {
 
 .reviewActual .title{
 	float:left;
-	width: 311px;
+	width: auto;
 	font-family:Tahoma, Geneva, sans-serif;
-	font-size:20px;
+	font-size:18px;
 	color:#000;
+}
+.reviewActual .title2{
+	float:right;
+	width: auto;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:16px;
+	color:#CD326E;
+	margin-top: 2px;
 }
 
 .reviewActual .description{
@@ -969,6 +977,14 @@ hr {
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:10px;
 	color:#666666;
+	font-weight:normal;
+	letter-spacing:1px;
+}
+
+.reviewActual .info .infoTitle2{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:10px;
+	color:#BC0F41;
 	font-weight:normal;
 	letter-spacing:1px;
 }
@@ -1538,7 +1554,7 @@ hr {
 	border:#FFFFFF solid 1px;
 }
 .textContainer {
-	margin-top:0px;
+	margin-top:5px;
 	margin-left:2px;
 	margin-right:0px;
 	padding-right:0px;
@@ -1657,7 +1673,7 @@ hr {
 }
 
 .rocafuertedesign{
-	padding-top:5px;
+	padding-top:15px;
 	margin-left:5px;
 	
 	background-color:none;
@@ -1698,6 +1714,14 @@ hr {
 	font-size:10px;
 	color:#666666;
 	font-weight:normal;
+}
+
+.smallBlack{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000;
+	font-weight:normal;
+	text-align:left;
 }
 
 .smallBlackTitle{
@@ -2109,6 +2133,9 @@ hr {
 	font-weight:normal;
 	color:#000000;
 }
+
+
+
 .newsHeaderSmaller {
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:14px;

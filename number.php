@@ -5,7 +5,7 @@
 <span class="newsHeaderFont">Close-Up shop</span><br /><br />
 
 <span class="smallPink">
-<p><a href="prenumeration.php">Prenumeration</a> | <a href="number.php"><strong>Gamla nummer</strong></a> | <a href="shop.php">Kl&auml;der</a></p>
+<p><a href="prenumeration.php">Prenumeration</a> | <a href="number.php"><strong>Tidigare utgåvor</strong></a> | <a href="shop.php">OPUS Prylar</a></p>
 </span><br />
 <hr />
 
