@@ -51,8 +51,9 @@ function setLeftDivHeight(){
   <a href="#" class="menuItem"><img src="graphics/menuItems/nyheter.png" width="54" height="30" alt="Senaste nytt"/></a>
   <a href="events.php" class="menuItem"><img src="graphics/menuItems/recensioner.png" /></a>
   <a href="/blog" class="menuItem"><img src="graphics/menuItems/butik.png" alt="Om OPUS" /></a>    
-  <a href="/forum" class="menuItem"><img src="graphics/menuItems/prenumeration.png" /></a>  
- <!-- <a href="/forum" class="menuItem"><img src="graphics/menuItems/bloggar.png" /></a>-->
+  <a href="/forum" class="menuItem"><img src="graphics/menuItems/prenumeration.png" /></a> 
+  <a href="#">Nyhetsbrev</a>
+<!-- <a href="/forum" class="menuItem"><img src="graphics/menuItems/bloggar.png" /></a>-->
   <a href="/blog" class="menuItem"><img src="graphics/menuItems/om.png" alt="Om OPUS" /></a>
   <a href="/forum" class="menuItem"><img src="graphics/menuItems/annonsera.png" /></a>  
 
@@ -69,7 +70,7 @@ function setLeftDivHeight(){
   </div>
  <div id="shop">
     <div class="shopBg"></div>
-    <div class="shopCenter"><span class="smallWhite">K&ouml;p exklusiva OPUS-prylar, tidigare utg&aring;vor, utvalda cd &amp; dvd, t-shirts mm. H&auml;r hittar du julklappar och presenter f&ouml;r hela &aring;ret!</span><span class="boldWhite"></span></div>
+    <div class="shopCenter"><span class="smallWhite"><a href="#">K&ouml;p exklusiva OPUS-prylar, tidigare utg&aring;vor, utvalda cd &amp; dvd, t-shirts mm. H&auml;r hittar du julklappar och presenter f&ouml;r hela &aring;ret!</a></span><a href="#"></a></div>
   </div>
  <div class="leftBox2">
    <div class="leftBox2Middle"><span class="smallWhite">
@@ -84,22 +85,18 @@ function setLeftDivHeight(){
 
   <img src="graphics/left_box_stripe.png" width="125" class="leftBox2Stripe" />
   
-  <img src="graphics/redaktionen.png" class="leftBox2Title"/><br />
-  
+  <div class="leftBox2Title">
+  <img src="graphics/redaktionen.png" />
+  </div>
   <span class="smallWhite">
- <a href="#">Kontakta OPUS</a><br />
-  <a href="#">OPUS Skribenter</a><br />
+ <a href="#">Kontakta OPUS</a>
+ <br />
+  <a href="#">OPUS Skribenter</a>
 
   </span>
   
   </div>
-
-
 </div>
-   
-
-
-
 </div>
 
 

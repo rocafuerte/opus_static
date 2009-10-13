@@ -3,6 +3,7 @@
 
 	
 <div id="centerDiv">
+
 <div class="newsBg">
 
 <div class="newsHeader">

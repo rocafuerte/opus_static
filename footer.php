@@ -24,7 +24,7 @@ function MM_swapImage() { //v3.0
 }
 //-->
 </script>
-<body onload="MM_preloadImages('graphics/rocafuertedesign_hover.gif')">
+<body onLoad="MM_preloadImages('graphics/rocafuertedesign_hover.gif')">
 
 <div class="rightCenterContent">
 
@@ -57,7 +57,7 @@ OPUS TV
 </embed>
 </object>
 <span class="smallBlack">
-På Opus TV kan du kolla på spelningar och andra videoklipp</span>
+<a href="#">Här kan du titta på utvalda klipp. Klicka på rutan för att spela klippet direkt, eller här för att få större bild.</a></span>
 <br />
 <hr class="hr2" noshade="noshade" />
 </div>
@@ -137,7 +137,7 @@ Kan du svaret? skicka in det och få chansen att vinna!
 <!--rightBannerDiv-->
 <div id="footer">
 <div class="direction">P.O. Box 4411 SE-102 69 Stockholm   Sweden |  + 46-8 462 02 14|  mail@closeupmagazine.net</div>
-<a href="http://www.rocafuerte.se" target="_blank" onmouseover="MM_swapImage('rocafuertedesign','','graphics/rocafuertedesign_hover.gif',1)" onmouseout="MM_swapImgRestore()"><img src="graphics/rocafuertedesign.gif" alt="rocafuerte design" name="rocafuertedesign" width="143" height="13" border="0" class="rocafuertedesign" /></a></div>
+<a href="http://www.rocafuerte.se" target="_blank" onMouseOver="MM_swapImage('rocafuertedesign','','graphics/rocafuertedesign_hover.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="graphics/rocafuertedesign.gif" alt="rocafuerte design" name="rocafuertedesign" width="143" height="13" border="0" class="rocafuertedesign" /></a></div>
 </div>
 </div>
 <!-- footer -->
