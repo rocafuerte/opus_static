@@ -52,7 +52,7 @@ function setLeftDivHeight(){
   <a href="events.php" class="menuItem"><img src="graphics/menuItems/recensioner.png" /></a>
   <a href="/blog" class="menuItem"><img src="graphics/menuItems/butik.png" alt="Om OPUS" /></a>    
   <a href="/forum" class="menuItem"><img src="graphics/menuItems/prenumeration.png" /></a> 
-  <a href="#">Nyhetsbrev</a>
+  <a href="#" class="menuItem"><img src="graphics/menuItems/letter.png" alt="Nyhetsbrev" /></a>
 <!-- <a href="/forum" class="menuItem"><img src="graphics/menuItems/bloggar.png" /></a>-->
   <a href="/blog" class="menuItem"><img src="graphics/menuItems/om.png" alt="Om OPUS" /></a>
   <a href="/forum" class="menuItem"><img src="graphics/menuItems/annonsera.png" /></a>  
@@ -69,7 +69,7 @@ function setLeftDivHeight(){
    </a>
   </div>
  <div id="shop">
-    <div class="shopBg"></div>
+   <div class="shopBg"></div>
     <div class="shopCenter"><span class="smallWhite"><a href="#">K&ouml;p exklusiva OPUS-prylar, tidigare utg&aring;vor, utvalda cd &amp; dvd, t-shirts mm. H&auml;r hittar du julklappar och presenter f&ouml;r hela &aring;ret!</a></span><a href="#"></a></div>
   </div>
  <div class="leftBox2">
